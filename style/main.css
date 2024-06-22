@@ -1,0 +1,24 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px 30px 10px 20px;
+    margin: 0;
+    height: 70px;
+    background-size: cover;
+    border: 0;
+}
+
+.navbar .container {
+    height: inherit;
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
