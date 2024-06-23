@@ -1,0 +1,58 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    color: white;
+    background-color: rgb(100, 149, 237);
+    padding: 0 30px 20px 25px;
+    font-size: 22px;
+    margin: 0;
+    height: 65px;
+    background-size: cover;
+    border: 0;
+}
+
+.navbar .container {
+    height: inherit;
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar .container ul li {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 20px 15px 20px 15px;
+}
+
+.navbar .container ul li a:hover {
+    color: gray;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content hr {
+    height: 1px;
+    width: 50%;
+    border: 1px solid rgb(139,0,255);
+    margin: 0 25% 0 25%;
+    border-radius: 5px;
+}
+
+#image_camera {
+    padding: 0 150px;
+    margin: 0 0 0 390px;
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+.contacts {
+    text-align: center;
+}
